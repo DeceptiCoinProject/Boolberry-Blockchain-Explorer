@@ -1,9 +1,9 @@
 # Boolberry-Blockchain-Explorer
-Block explorer for Karbowanec CryptoNote based cryptocurrency.
+Block explorer for Boolberry cryptocurrency.
 
 #### Installation
 
-1) It takes data from daemon karbowanecd. It should be accessible from the Internet. Run karbowanecd with open port as follows:
+1) It takes data from daemon boolbd. It should be accessible from the Internet. Run boolbd with open port as follows:
 ```bash
 ./boolbd --restricted-rpc 
 ```
