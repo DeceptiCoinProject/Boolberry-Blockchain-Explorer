@@ -1,9 +1,9 @@
-var api = 'http://explorer.mining.blue/domain';
+var api = 'http://178.62.39.94:17666';
 var blockTargetInterval = 120;
 var coinUnits = 1000000000000;
-var symbol = 'XBB';
+var symbol = 'DCON';
 var refreshDelay = 30000;
-// pools stats by MainCoins
+// pools stats by DeceptiCoin
 var networkStat = {
     "krb": [
 		["krb.mypool.name", "http://krb.mypool.name:32351"],
@@ -24,12 +24,9 @@ var networkStat = {
 		["bitcache.cc", "http://bitcache.cc:8117"]
 		
     ],
-    "xbb": [
-                ["bbr.miningclub.info", "http://bbr.miningclub.info:8118"],
-                ["bbr.poolto.be", "http://bbr.poolto.be/api"],
-                ["mining.blue", "http://mining.blue/api"],
-                ["bbr.hash.group", "http://hashgroup.ddns.net:8118"],
-                ["mbkpool.info", "http://bbr.mbkpool.info:8117"],
+    "dcon": [
+                ["178.62.39.94", "http://178.62.39.94:17666"],
+                ["178.62.38.238", "http://178.62.38.238:18666"],
 
 
 
